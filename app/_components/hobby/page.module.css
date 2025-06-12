@@ -1,0 +1,27 @@
+.hobbySection {
+   width: 700px;
+  margin: 2rem auto;
+  padding: 1rem;
+  scroll-margin-top: 50px;
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hobbyList {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.hobbyItem {
+  text-align: center;
+}
+
+.hobbyText {
+  margin-top: 0.5rem;
+}
