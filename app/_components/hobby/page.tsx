@@ -2,7 +2,8 @@ import Image from "next/image"
 import styles from "./page.module.css"
 
 export default function HobbyPage() {
-    return (
+  return (
+      <>
         <section id="hobby" className={styles.hobbySection}>
         <h2 className={styles.heading}>Hobby</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit architecto modi provident sed nostrum deleniti ipsum voluptatibus repellat unde iusto soluta adipisci commodi, accusamus vero ullam exercitationem, amet id sequi.</p>
@@ -40,5 +41,7 @@ export default function HobbyPage() {
           {/* 必要に応じてカードを追加 */}
         </div>
       </section>
+      <hr/>
+      </>
     )
 }

@@ -3,7 +3,6 @@ import styles from "./page.module.css";
 
 export default function ProfilePage() {
   return (
-    <>
     <main id="profile" className={styles.container}>
       <h2 className={styles.heading}>Profile</h2>
       <section className={styles.profileSection}>
@@ -25,6 +24,5 @@ export default function ProfilePage() {
         </div>
       </section>
     </main>
-      <hr /></>
   );
 }
