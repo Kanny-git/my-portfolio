@@ -6,7 +6,8 @@ export default function HobbyPage() {
       <>
         <section id="hobby" className={styles.hobbySection}>
         <h2 className={styles.heading}>Hobby</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit architecto modi provident sed nostrum deleniti ipsum voluptatibus repellat unde iusto soluta adipisci commodi, accusamus vero ullam exercitationem, amet id sequi.</p>
+        <p>趣味は写真撮影・旅行・バスケットボールです。
+休日には風景を撮影したり、友人と新しい場所を訪れてリフレッシュしています。バスケットボールは学生時代からの趣味で、今も楽しんでいます。</p>
         <div className={styles.hobbyList}>
           <article className={styles.hobbyItem}>
             <Image

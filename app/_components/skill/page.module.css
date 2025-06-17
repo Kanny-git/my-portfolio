@@ -20,19 +20,26 @@
   font-size: 1rem;
   line-height: 1.6;
   text-align: center;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 1rem;
-}
-
-.icon{
-  height: 30px;
-  width: 20px;
 }
 
 .skillList li{
   border: 1px solid var(--color-bg-sec);
-  padding: 0.5rem;
+  padding: 1rem;
   width: 100%;
-  height: 80px;
-  margin-bottom: 1rem;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  line-height: 1.8rem;
+}
+
+.logo{
+  margin-bottom: 0.5rem;
+}
+
+.skillList li p{
+  font-size: 0.8rem;
+  text-align:center;
 }
