@@ -1,4 +1,3 @@
-// 
 import { createClient } from "microcms-js-sdk";
 import type { MicroCMSQueries, MicroCMSImage, MicroCMSListContent } from "microcms-js-sdk";
 
@@ -8,10 +7,15 @@ export type Skill = {
     skilldescription: string;
 } & MicroCMSListContent;
 
-// Use NEXT_PUBLIC_ prefixed variables
-const client = createClient({
-  serviceDomain: process.env.NEXT_PUBLIC_MICROCMS_SERVICE_DOMAIN || '',
-  apiKey: process.env.NEXT_PUBLIC_MICROCMS_API_KEY || '',
+export type News = {
+  image: MicroCMSImage;
+  title: string;
+  content: string;
+} & MicroCMSListContent;
+
+export const client = createClient({
+  serviceDomain: process.env.NEXT_PUBLIC_MICROCMS_SERVICE_DOMAIN || " ", // will error if not set
+  apiKey: process.env.NEXT_PUBLIC_MICROCMS_API_KEY || " ",
 });
 
 export const getSkillsList = async (queries?: MicroCMSQueries) => {
@@ -21,3 +25,11 @@ export const getSkillsList = async (queries?: MicroCMSQueries) => {
   });
   return listData;
 };
+
+export const getNewsList = async (queries?: MicroCMSQueries) => {
+  const listData = await client.getList<News>({
+    endpoint: "news",
+    queries,
+  });
+  return listData;
+} 

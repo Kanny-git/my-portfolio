@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import cx from "classnames";
 import styles from "./page.module.css";
-import AboutPage from "./_components/about/page";
+import NewsPage from "./_components/news/page";
 import ProfilePage from "./_components/profile/page";
 import WorkPage from "./_components/work/page";
 import SkillPage from "./_components/skill/page";
@@ -12,7 +12,6 @@ import StrengthsPage from "./_components/strengths/page";
 import HobbyPage from "./_components/hobby/page";
 
 export default function HomePage() {
-
   const [isOpen, setOpen] = useState<boolean>(false);
   const open = () => setOpen(true);
   const close = () => setOpen(false);
@@ -23,41 +22,55 @@ export default function HomePage() {
         <Link href="./" className={styles.logoLink}>
           AUNG
         </Link>
-      <div>
-        <nav className={cx(styles.navLinks, isOpen && styles.open)}>
-          <ul>
-            <li>
-              <Link href="#about">About</Link>
-            </li>
-            <li>
-              <Link href="#profile">Profile</Link>
-            </li>
-            <li>
-              <Link href="#hobby">Hobby</Link>
-            </li>
-            <li>
-              <Link href="#work">Work</Link>
-            </li>
-            <li>
-              <Link href="#skill">Skills</Link>
-            </li>
-            <li>
-              <Link href="#strengths">Strengths</Link>
-            </li>
-            <li>
-              <Link href="#contact">Contact</Link>
-            </li>
+        <div>
+          <nav className={cx(styles.navLinks, isOpen && styles.open)}>
+            <ul>
+              <li>
+                <Link href="#news">News</Link>
+              </li>
+              <li>
+                <Link href="#profile">Profile</Link>
+              </li>
+              <li>
+                <Link href="#hobby">Hobby</Link>
+              </li>
+              <li>
+                <Link href="#work">Work</Link>
+              </li>
+              <li>
+                <Link href="#skill">Skill</Link>
+              </li>
+              <li>
+                <Link href="#strengths">Strengths</Link>
+              </li>
+              <li>
+                <Link href="#contact">Contact</Link>
+              </li>
             </ul>
-          <button className={cx(styles.button, styles.close)} onClick={close}>
-            <Image src="images/close.svg" alt="closemenu" width={24} height={24} priority />
-          </button>
+            <button className={cx(styles.button, styles.close)} onClick={close}>
+              <Image
+                src="images/close.svg"
+                alt="closemenu"
+                width={24}
+                height={24}
+                priority
+              />
+            </button>
           </nav>
           <button className={styles.button} onClick={open}>
-            <Image src="images/menu.svg" alt="menu" width={24} height={24} priority/>
+            <Image
+              src="images/menu.svg"
+              alt="menu"
+              width={24}
+              height={24}
+              priority
+            />
           </button>
-      </div>
+        </div>
       </header>
-      <Link href="."><div className={styles.toTop}>∧</div></Link>
+      <Link href=".">
+        <div className={styles.toTop}>∧</div>
+      </Link>
       <main className={styles.container}>
         <section className={styles.hero}>
           <Image
@@ -78,7 +91,7 @@ export default function HomePage() {
         </section>
       </main>
       <>
-        <AboutPage />
+        <NewsPage />
         <ProfilePage />
         <HobbyPage />
         <WorkPage />

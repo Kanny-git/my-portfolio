@@ -115,7 +115,7 @@
   }
 
   .navLinks.open{
-    height: 280px;
+    height: 17.5rem;
     display: block;
     position: fixed; 
     top: 2.8rem;
@@ -130,8 +130,7 @@
   .navLinks ul{
     margin-top: 0.5rem;
     flex-direction: column;
-    align-items:stretch;
-    justify-content: center;
+    align-items: flex-start;
     gap: 1rem;
   }
 

@@ -11,12 +11,10 @@
 }
 
 .hobbyList {
-  /* padding: 0 1rem; */
   display: flex;
   gap: 1rem;
   justify-content: space-between;
   margin: 1.5rem 0;
-  /* border: solid 1px var(--color-bg-sec); */
 }
 
 .hobbyItem {
