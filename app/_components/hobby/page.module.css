@@ -24,3 +24,24 @@
 .hobbyText {
   margin:0 1.5rem 0.5rem 1.5rem;
 }
+
+@media (max-width:640px){
+  .hobbySection{
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+
+  .heading{
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .hobbyList{
+    flex-direction: column;
+  }
+
+  .hobbyImage{
+    width: 300px;
+    height: 250px;
+  }
+}

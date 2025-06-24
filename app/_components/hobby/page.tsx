@@ -42,7 +42,6 @@ export default function HobbyPage() {
           {/* 必要に応じてカードを追加 */}
         </div>
       </section>
-      <hr/>
       </>
     )
 }

@@ -115,7 +115,7 @@
   }
 
   .navLinks.open{
-    height: 17.5rem;
+    height: 17.3rem;
     display: block;
     position: fixed; 
     top: 2.8rem;
@@ -151,5 +151,13 @@
     position: absolute;
     right: 0.1rem;
     top: -2.8rem;
+  }
+
+  .toTop{
+    display: none;
+  }
+  
+  .title h1{
+    font-size: 2.5rem;
   }
 }

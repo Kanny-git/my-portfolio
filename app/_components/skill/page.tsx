@@ -19,10 +19,9 @@ export default function SkillPage() {
   return (
     <>
       <main id="skill" className={styles.container}>
-      <h2 className={styles.heading}>Skills</h2>
+      <h2 className={styles.heading}>Skill</h2>
       <p className={styles.text}>
-        これまで勉強した言語や現在学習中の技術を載せましょう。
-        「半分ぐらいしか理解していないけど…」というものでも積極的に書き、学習のモチベーションに変えましょう。
+        これまで勉強した言語や現在学習中の技術は以下の通りです。
       </p>
             <ul className={styles.skillList}>
               {data && data.contents.map((skill) => (
@@ -34,7 +33,6 @@ export default function SkillPage() {
               ))}
           </ul>
     </main>
-    <hr />
     </>
   );
 }

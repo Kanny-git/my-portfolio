@@ -18,14 +18,13 @@
 
 .list{
   list-style-type: none;
-
 }
 
 .link{
   display: flex;
   align-items: flex-start;
   gap: 4rem;
-  padding: 1rem 0;
+  padding: 2rem 0;
   border-bottom: solid 1px var(--color-text-sec);
 }
 
@@ -36,4 +35,31 @@
 
 .newsItem{
   font-size: 0.9rem;
+}
+
+@media (max-width:640px){
+
+  .heading{
+    font-size: 1.5rem;
+  }
+
+  .newsItemTitle{
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .link{
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .image{
+    width: 200px;
+    height: auto;
+  }
+
+  .content{
+    text-align: justify;
+  }
 }

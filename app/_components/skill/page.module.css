@@ -43,3 +43,29 @@
   font-size: 0.8rem;
   text-align:center;
 }
+
+@media (max-width:640px) {
+  
+  .container{
+     width: 100%;
+     margin: 0.5rem 0;
+   }
+ 
+   .heading{
+     font-size: 1.5rem;
+     text-align: center;
+   }
+
+   .text{
+    text-align: justify;
+   }
+
+   .skillList{
+    grid-template-columns: 1fr;
+   }
+
+   .skillList li p{
+    font-size: 0.8rem;
+    text-align:justify;
+  }
+}

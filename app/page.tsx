@@ -10,6 +10,7 @@ import WorkPage from "./_components/work/page";
 import SkillPage from "./_components/skill/page";
 import StrengthsPage from "./_components/strengths/page";
 import HobbyPage from "./_components/hobby/page";
+import ContactPage from "./_components/contact/page";
 
 export default function HomePage() {
   const [isOpen, setOpen] = useState<boolean>(false);
@@ -90,14 +91,13 @@ export default function HomePage() {
           </div>
         </section>
       </main>
-      <>
         <NewsPage />
         <ProfilePage />
         <HobbyPage />
         <WorkPage />
         <SkillPage />
         <StrengthsPage />
-      </>
+        <ContactPage/>
     </>
   );
 }

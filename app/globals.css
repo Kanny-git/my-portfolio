@@ -102,12 +102,4 @@ a {
   text-decoration: none;
 }
 
-hr{
-  margin:10px 100px;
-}
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-}

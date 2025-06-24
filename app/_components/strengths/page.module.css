@@ -3,7 +3,6 @@
   margin: 2rem auto;
   padding: 1rem;
   scroll-margin-top: 50px;
-
 }
 
 .heading {
@@ -28,4 +27,15 @@
 .strengthText {
   font-size: 1rem;
   line-height: 1.6;
+}
+
+@media (max-width:640px) {
+  .container{
+    margin: 0;
+  }
+
+  .heading{
+    font-size: 1.5rem;
+    text-align: center;
+  }
 }
