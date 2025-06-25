@@ -8,7 +8,7 @@ export default function StrengthsPage() {
       <section className={styles.strengthSection}>
         <h3 className={styles.subHeading}>課題解決力</h3>
         <p className={styles.strengthText}>
-          私の強みは、課題に対して冷静に分析し、解決策を見つける力です。大学時代に開発プロジェクトのリーダーを務めた際、進行が遅れていた部分を特定し、タスクを細分化してチームで共有することでスムーズに挽回することができました。この経験から、状況を客観的に見て判断し、行動に移す力を身につけました。
+          状況を的確に捉え、最適な対応策を考える力があります。プログラミング学習中、原因不明のバグに直面した際に、情報を徹底的に調べて自力で解決しました。その後、同じ問題に悩むクラスメイトにも共有し、全体の理解向上につながりました。
         </p>
       </section>
       <section className={styles.strengthSection}>
