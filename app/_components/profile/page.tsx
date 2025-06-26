@@ -14,7 +14,7 @@ export default function ProfilePage() {
           className={styles.profileImage}
         />
         <div className={styles.profileText}>
-          <p><strong>名前：</strong>AUNG WIN PHYO</p>
+          <p><strong>名前：</strong>AUNG WIN PHYO(ピョー と読んで下さい)</p>
           <p><strong>年齢：</strong>24歳</p>
           <p><strong>所在地：</strong>沖縄県那覇市</p>
           <p><strong>出身：</strong>ミャンマー</p>
