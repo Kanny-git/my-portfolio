@@ -20,6 +20,12 @@ export default function HomePage() {
   return (
     <>
       <header className={styles.header}>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+        rel="stylesheet"
+      />
         <Link href="./" className={styles.logoLink}>
           AUNG
         </Link>
