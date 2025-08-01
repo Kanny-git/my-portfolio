@@ -25,7 +25,19 @@ export default function WorkPage() {
               </Link>
             </div>
           </li>
-        {/* 必要に応じてリストを追加 */}
+          {/* 必要に応じてリストを追加 */}
+          <li className={styles.workItem}>
+          <Image src="/images/project2.png" alt="project2" width={300} height={150} className={styles.img} />
+            <div className={styles.work}>
+              <h3 className={styles.workTitle}>Dessert Heaven</h3>
+              <p>注文アプリ</p>
+              <Link href="https://github.com/Kanny-git/order-app" target="_blank" className={styles.link}>GitHub リポジトリはこちら→</Link>
+              <br />
+               <Link href="https://dessert-order-app.vercel.app" target="_blank">
+                <div className={styles.demoLink}>View Demo</div>
+              </Link>
+            </div>
+          </li>
       </ul>
       </main>
       </>
