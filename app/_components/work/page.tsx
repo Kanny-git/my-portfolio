@@ -30,7 +30,7 @@ export default function WorkPage() {
           <Image src="/images/project2.png" alt="project2" width={300} height={150} className={styles.img} />
             <div className={styles.work}>
               <h3 className={styles.workTitle}>Dessert Heaven</h3>
-              <p>Next.js を使った注文アプリ</p>
+              <p>Next.js,LocalStorage を使った注文アプリ</p>
               <Link href="https://github.com/Kanny-git/order-app" target="_blank" className={styles.link}>GitHub リポジトリはこちら →</Link>
               <br />
                <Link href="https://dessert-order-app.vercel.app" target="_blank">
