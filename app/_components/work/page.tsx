@@ -18,10 +18,10 @@ export default function WorkPage() {
             <div className={styles.work}>
               <h3 className={styles.workTitle}>Design4U</h3>
               <p>HTML,CSS を使って1年生の時作ったサイト</p>
-              <Link href="https://github.com/Kanny-git/Design4U" target="_blank" className={styles.link}>GitHub リポジトリはこちら→</Link>
+              <Link href="https://github.com/Kanny-git/Design4U" target="_blank" className={styles.link}>GitHub リポジトリはこちら →</Link>
               <br />
                <Link href="https://design4-u.vercel.app" target="_blank">
-                <div className={styles.demoLink}>View Demo</div>
+                <div className={styles.demoLink}>View Demo ⇀</div>
               </Link>
             </div>
           </li>
@@ -30,11 +30,23 @@ export default function WorkPage() {
           <Image src="/images/project2.png" alt="project2" width={300} height={150} className={styles.img} />
             <div className={styles.work}>
               <h3 className={styles.workTitle}>Dessert Heaven</h3>
-              <p>注文アプリ</p>
-              <Link href="https://github.com/Kanny-git/order-app" target="_blank" className={styles.link}>GitHub リポジトリはこちら→</Link>
+              <p>Next.js を使った注文アプリ</p>
+              <Link href="https://github.com/Kanny-git/order-app" target="_blank" className={styles.link}>GitHub リポジトリはこちら →</Link>
               <br />
                <Link href="https://dessert-order-app.vercel.app" target="_blank">
-                <div className={styles.demoLink}>View Demo</div>
+                <div className={styles.demoLink}>View Demo ⇀</div>
+              </Link>
+            </div>
+          </li>
+          <li className={styles.workItem}>
+          <Image src="/images/project3.png" alt="project3" width={300} height={150} className={styles.img} />
+            <div className={styles.work}>
+              <h3 className={styles.workTitle}>Smart Budget</h3>
+              <p>チームで作った家計簿アプリ（卒業制作）</p>
+              <Link href="https://github.com/Zayar0098/smart-budget/tree/dev-zayar" target="_blank" className={styles.link}>GitHub リポジトリはこちら →</Link>
+              <br />
+               <Link href="https://smtbudget.vercel.app" target="_blank">
+                <div className={styles.demoLink}>View Demo ⇀</div>
               </Link>
             </div>
           </li>

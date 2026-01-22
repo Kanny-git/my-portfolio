@@ -16,7 +16,7 @@ export default function StrengthsPage() {
         <p className={styles.strengthText}>
           目標に向かって地道に努力を続けられる継続力です。プログラミングを独学で学び始めた当初は、エラーばかりで思うように進みませんでしたが、毎日学習を続けた結果、半年後にはポートフォリオサイトを一人で作成できるようになりました。この経験から、継続する力が成果につながることを実感しました。
         </p>
-      </section>
+        </section>
     </main>
   );
 }

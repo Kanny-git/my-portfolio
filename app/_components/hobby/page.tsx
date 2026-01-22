@@ -6,8 +6,8 @@ export default function HobbyPage() {
       <>
         <section id="hobby" className={styles.hobbySection}>
         <h2 className={styles.heading}>Hobby</h2>
-        <p>趣味は写真撮影・旅行・バスケットボールです。
-休日には風景を撮影したり、友人と新しい場所を訪れてリフレッシュしています。バスケットボールは学生時代からの趣味で、今も楽しんでいます。</p>
+        <p>趣味は写真撮影、オンラインゲーム、バスケットボールです。
+写真では観察力を、ゲームやバスケットボールでは仲間と協力する楽しさを感じています。</p>
         <div className={styles.hobbyList}>
           <article className={styles.hobbyItem}>
             <Image
@@ -21,17 +21,17 @@ export default function HobbyPage() {
           </article>
           <article className={styles.hobbyItem}>
             <Image
-              src="/images/trip.jpg"
+              src="/images/game.jpg"
               alt="趣味2"
               width={200}
               height={200}
               className={styles.hobbyImage}
             />
-            <p className={styles.hobbyText}>旅行</p>
+            <p className={styles.hobbyText}>ゲーム</p>
           </article>
           <article className={styles.hobbyItem}>
             <Image
-              src="/images/basketball.png"
+              src="/images/basketball.jpg"
               alt="趣味3"
               width={200}
               height={200}
