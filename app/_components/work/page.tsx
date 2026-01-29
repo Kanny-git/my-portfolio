@@ -43,7 +43,7 @@ export default function WorkPage() {
             <div className={styles.work}>
               <h3 className={styles.workTitle}>Smart Budget</h3>
               <p>チームで作った家計簿アプリ（卒業制作）</p>
-              <Link href="https://github.com/Zayar0098/smart-budget/tree/dev-zayar" target="_blank" className={styles.link}>GitHub リポジトリはこちら →</Link>
+              <Link href="hhttps://github.com/Kanny-git/school-project" target="_blank" className={styles.link}>GitHub リポジトリはこちら →</Link>
               <br />
                <Link href="https://smtbudget.vercel.app" target="_blank">
                 <div className={styles.demoLink}>View Demo ⇀</div>
